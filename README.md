@@ -33,12 +33,13 @@ GitHub Profile README
 
 ## 👋 About Me
 
-Full-stack engineer with 10+ years building web/mobile products, healthcare integrations and financial data APIs. I build React and Angular web apps, React Native and Android mobile apps, connect EHR and CRM workflows, stabilize Python/.NET backends and make complex systems easier to operate. Most recently led a Keragon / n8n patient journey engine tying Healthie EHR, GoHighLevel CRM, Stripe and two pharmacies to one patient record.
+Full-stack engineer with 10+ years building web/mobile products, healthcare integrations, and financial systems. Since studying computer science at UCF I've shipped React, Next.js and Angular web apps, React Native and Android mobile apps, connected EHR and CRM workflows, and stabilized Python/.NET backends across healthcare, fintech and aerospace. That path runs from clinical device software at ARA, through telehealth and FHIR intake at Insight Global, to a .NET / Angular finance portal at Northrop Grumman clearing $8M+ a month through Stripe — alongside the aerospace telemetry tooling built there. Most recently I led a Keragon / n8n patient journey engine tying Healthie EHR, GoHighLevel CRM, Stripe and two pharmacies to one patient record.
 
 I enjoy the hard parts: keeping records consistent across systems, recovering safely from failed jobs, making integrations observable, and leaving teams with clear documentation instead of hidden operational knowledge.
 
 - 🩺 **Healthcare systems:** EHR/CRM integrations, patient workflows, interoperability, and privacy-aware data handling.
-- 🔧 **Backend engineering:** API design, event-driven services, background jobs, data reconciliation, and recovery.
+- 💳 **Fintech & finance:** payment portals, Stripe billing and reconciliation, PCI-aware flows, and financial analytics and reporting.
+- 🧠 **Backend engineering:** API design, event-driven services, background jobs, payment reconciliation, and safe recovery.
 - 📱 **Web & mobile:** Responsive front ends, cross-platform apps, and offline-friendly synchronization.
 - ☁️ **Delivery & operations:** AWS, CI/CD, production troubleshooting, runbooks, and practical handoffs.
 
@@ -52,16 +53,16 @@ I enjoy the hard parts: keeping records consistent across systems, recovering sa
       <p><sub>React · Next.js · Angular · React Native · Android</sub></p>
     </td>
     <td width="50%" height="165" valign="top" bgcolor="#f4f7fa">
-      <h3>🩺 Healthcare Integrations</h3>
-      <p>EHR / EMR / CRM workflows, HL7 v2 and FHIR data exchange, patient-data migration, telehealth, and clinical-system integrations.</p>
-      <p><sub>Healthie · Epic · Cerner · Redox · Metriport · GoHighLevel</sub></p>
+      <h3>🩺 Healthcare &amp; Fintech Integration</h3>
+      <p>EHR / EMR / CRM workflows, HL7 v2 and FHIR data exchange, healthcare website development, patient-data migration, and telehealth — plus Stripe billing, payment reconciliation, and PCI-aware payment portals.</p>
+      <p><sub>Healthie · Epic · Cerner · Redox · Next.js · Supabase · Stripe</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" height="165" valign="top" bgcolor="#f4f7fa">
-      <h3>📈 Backend &amp; Data Systems</h3>
-      <p>Python / Django and C# / .NET APIs, financial analytics, batch processing, SQL tuning, idempotent jobs, and production monitoring.</p>
-      <p><sub>Python · Django · C# / .NET · Node.js · Go · AWS</sub></p>
+      <h3>🗄️ Backend &amp; Data Systems</h3>
+      <p>Python / Django and C# / .NET APIs across healthcare, finance and aerospace — financial analytics, telemetry, batch processing, SQL tuning, idempotent jobs, and production monitoring.</p>
+      <p><sub>Python · Django · C# / .NET · Node.js · AWS</sub></p>
     </td>
     <td width="50%" height="165" valign="top" bgcolor="#f4f7fa">
       <h3>⚙️ Workflow Automation</h3>
@@ -71,22 +72,16 @@ I enjoy the hard parts: keeping records consistent across systems, recovering sa
   </tr>
 </table>
 
-## 📊 Engineering Impact
+## 📊 Recent Work Statistics
 
 A snapshot of measurable outcomes from production systems.
 
 <table width="100%" cellspacing="0" cellpadding="8">
   <tr>
-    <td align="center" valign="top" width="25%"><h2>54</h2></td>
-    <td align="center" valign="top" width="25%"><h2>~3,900</h2></td>
-    <td align="center" valign="top" width="25%"><h2>4,684</h2></td>
-    <td align="center" valign="top" width="25%"><h2>0</h2></td>
-  </tr>
-  <tr>
-    <td><hr/></td>
-    <td><hr/></td>
-    <td><hr/></td>
-    <td><hr/></td>
+    <td align="center" valign="top" width="25%"><h3>54</h3></td>
+    <td align="center" valign="top" width="25%"><h3>~3,900</h3></td>
+    <td align="center" valign="top" width="25%"><h3>4,684</h3></td>
+    <td align="center" valign="top" width="25%"><h3>0</h3></td>
   </tr>
   <tr>
     <td align="center" valign="top"><sub>workflow automations</sub></td>
@@ -108,88 +103,97 @@ A snapshot of measurable outcomes from production systems.
 - Built reminder flows that re-check live status before sending, skip completed actions, and hold refills until required lab work is current.
 - Recovered from rate-limited bulk updates with repeatable repair jobs and controlled request pacing.
 - Routed operational alerts into categorized support tickets, appending repeat events to existing tickets instead of creating duplicates.
-- Improved financial reporting by tuning SQL queries and moving slow, non-interactive work into background processing.
 
 ## 🛠️ Technical Skills
 
 ### Frontend & Mobile
 <table width="100%" cellspacing="0" cellpadding="4">
   <tr>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript"/><br/><sub>JavaScript</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript"/><br/><sub>TypeScript</sub></td>
     <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="34" height="34" alt="React"/><br/><sub>React</sub></td>
     <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="34" height="34" alt="Next.js"/><br/><sub>Next.js</sub></td>
     <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" width="34" height="34" alt="Angular"/><br/><sub>Angular</sub></td>
     <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="34" height="34" alt="React Native"/><br/><sub>React Native</sub></td>
+    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript"/><br/><sub>TypeScript</sub></td>
     <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="34" height="34" alt="Android"/><br/><sub>Android</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="34" height="34" alt="HTML5"/><br/><sub>HTML5</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="34" height="34" alt="CSS3"/><br/><sub>CSS3</sub></td>
+    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript"/><br/><sub>JavaScript</sub></td>
     <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="34" height="34" alt="jQuery"/><br/><sub>jQuery</sub></td>
+    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="34" height="34" alt="iOS"/><br/><sub>iOS</sub></td>
+    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="34" height="34" alt="HTML/CSS"/><br/><sub>HTML/CSS</sub></td>
   </tr>
 </table>
 
-### Backend & APIs
+### Backend
 <table width="100%" cellspacing="0" cellpadding="4">
   <tr>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="34" height="34" alt="Python"/><br/><sub>Python</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="34" height="34" alt="Django"/><br/><sub>Django</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="34" height="34" alt="Node.js"/><br/><sub>Node.js</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="34" height="34" alt="NestJS"/><br/><sub>NestJS</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="34" height="34" alt="C#"/><br/><sub>C#</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="34" height="34" alt=".NET"/><br/><sub>.NET</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="34" height="34" alt="Go"/><br/><sub>Go</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="34" height="34" alt="Java"/><br/><sub>Java</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="34" height="34" alt="Spring Boot"/><br/><sub>Spring Boot</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="34" height="34" alt="GraphQL"/><br/><sub>GraphQL</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="34" height="34" alt="Python"/><br/><sub>Python</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="34" height="34" alt="Django"/><br/><sub>Django</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="34" height="34" alt="C#"/><br/><sub>C#</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="34" height="34" alt=".NET"/><br/><sub>.NET</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="34" height="34" alt="Node.js"/><br/><sub>Node.js</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="34" height="34" alt="NestJS"/><br/><sub>NestJS</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="34" height="34" alt="Java"/><br/><sub>Java</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="34" height="34" alt="Spring Boot"/><br/><sub>Spring Boot</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="34" height="34" alt="GraphQL"/><br/><sub>GraphQL</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://img.icons8.com/color/48/webhook.png" width="34" height="34" alt="Webhooks"/><br/><sub>Webhooks</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="34" height="34" alt="FastAPI"/><br/><sub>FastAPI</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="34" height="34" alt="PHP"/><br/><sub>PHP</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="34" height="34" alt="Laravel"/><br/><sub>Laravel</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="34" height="34" alt="Postman"/><br/><sub>Postman</sub></td>
+    <td align="center" valign="middle" width="6.66%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="34" height="34" alt="C/C++"/><br/><sub>C/C++</sub></td>
   </tr>
 </table>
 
-### Data & Cloud
+### Data & Automation
 <table width="100%" cellspacing="0" cellpadding="4">
   <tr>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="34" height="34" alt="PostgreSQL"/><br/><sub>PostgreSQL</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="34" height="34" alt="MySQL"/><br/><sub>MySQL</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="34" height="34" alt="MongoDB"/><br/><sub>MongoDB</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="34" height="34" alt="Redis"/><br/><sub>Redis</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="34" height="34" alt="Firebase"/><br/><sub>Firebase</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="34" height="34" alt="AWS"/><br/><sub>AWS</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="34" height="34" alt="Google Cloud"/><br/><sub>Google Cloud</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="34" height="34" alt="Azure"/><br/><sub>Azure</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="34" height="34" alt="Docker"/><br/><sub>Docker</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="34" height="34" alt="Kubernetes"/><br/><sub>Kubernetes</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="34" height="34" alt="PostgreSQL"/><br/><sub>PostgreSQL</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="34" height="34" alt="MySQL"/><br/><sub>MySQL</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="34" height="34" alt="MongoDB"/><br/><sub>MongoDB</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="34" height="34" alt="Redis"/><br/><sub>Redis</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.simpleicons.org/n8n/EA4B71" width="34" height="34" alt="n8n"/><br/><sub>n8n</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://img.icons8.com/color/48/workflow.png" width="34" height="34" alt="Keragon"/><br/><sub>Keragon</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://img.icons8.com/color/48/flow-chart.png" width="34" height="34" alt="GoHighLevel"/><br/><sub>GoHighLevel</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.simpleicons.org/zoho/E42527" width="34" height="34" alt="Zoho"/><br/><sub>Zoho</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.simpleicons.org/stripe/635BFF" width="34" height="34" alt="Stripe"/><br/><sub>Stripe</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.simpleicons.org/zendesk/03363D" width="34" height="34" alt="Zendesk"/><br/><sub>Zendesk</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="34" height="34" alt="Firebase"/><br/><sub>Firebase</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://img.icons8.com/color/48/form.png" width="34" height="34" alt="Jotform"/><br/><sub>Jotform</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" width="34" height="34" alt="Supabase"/><br/><sub>Supabase</sub></td>
+    <td align="center" valign="middle" width="7.14%"><img src="https://cdn.simpleicons.org/celery/37814A" width="34" height="34" alt="Celery"/><br/><sub>Celery</sub></td>
   </tr>
 </table>
 
-### Tools & Platforms
+### Cloud & AI
 <table width="100%" cellspacing="0" cellpadding="4">
   <tr>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="34" height="34" alt="Git"/><br/><sub>Git</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="34" height="34" alt="GitHub"/><br/><sub>GitHub</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="34" height="34" alt="VS Code"/><br/><sub>VS Code</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="34" height="34" alt="PHP"/><br/><sub>PHP</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="34" height="34" alt="Laravel"/><br/><sub>Laravel</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" width="34" height="34" alt="Ruby on Rails"/><br/><sub>Ruby on Rails</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="34" height="34" alt="WordPress"/><br/><sub>WordPress</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="34" height="34" alt="Sass"/><br/><sub>Sass</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" width="34" height="34" alt="Webpack"/><br/><sub>Webpack</sub></td>
-    <td align="center" valign="middle" width="10.00%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="34" height="34" alt="FastAPI"/><br/><sub>FastAPI</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/lambda.png" width="34" height="34" alt="AWS Lambda"/><br/><sub>AWS Lambda</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/amazon-web-services.png" width="34" height="34" alt="Amazon ECS"/><br/><sub>Amazon ECS</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/flow.png" width="34" height="34" alt="Step Functions"/><br/><sub>Step Functions</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="34" height="34" alt="Docker"/><br/><sub>Docker</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="34" height="34" alt="GitHub"/><br/><sub>GitHub</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/anthropic/D97757" width="34" height="34" alt="Claude Code"/><br/><sub>Claude Code</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/cursor/808080" width="34" height="34" alt="Cursor"/><br/><sub>Cursor</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="34" height="34" alt="Azure"/><br/><sub>Azure</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="34" height="34" alt="Google Cloud"/><br/><sub>Google Cloud</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="34" height="34" alt="Git"/><br/><sub>Git</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/excalidraw/6965DB" width="34" height="34" alt="Excalidraw"/><br/><sub>Excalidraw</sub></td>
   </tr>
 </table>
 
-### Healthcare & Workflow Integrations
+### Healthcare
 <table width="100%" cellspacing="0" cellpadding="4">
   <tr>
-    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/medical-doctor.png" width="34" height="34" alt="HL7 / FHIR"/><br/><sub>HL7 / FHIR</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/hospital-3.png" width="34" height="34" alt="EHR / EMR"/><br/><sub>EHR / EMR</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/health-graph.png" width="34" height="34" alt="Healthie"/><br/><sub>Healthie</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/hospital-room.png" width="34" height="34" alt="Epic / Cerner"/><br/><sub>Epic / Cerner</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/data-configuration.png" width="34" height="34" alt="Redox / Metriport"/><br/><sub>Redox / Metriport</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/n8n/EA4B71" width="34" height="34" alt="Keragon / n8n"/><br/><sub>Keragon / n8n</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/flow-chart.png" width="34" height="34" alt="GoHighLevel"/><br/><sub>GoHighLevel</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/jotform/FF6100" width="34" height="34" alt="Jotform"/><br/><sub>Jotform</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/stripe/635BFF" width="34" height="34" alt="Stripe"/><br/><sub>Stripe</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/zendesk/03363D" width="34" height="34" alt="Zendesk"/><br/><sub>Zendesk</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/twilio/F22F46" width="34" height="34" alt="Twilio"/><br/><sub>Twilio</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/medical-doctor.png" width="34" height="34" alt="HL7 v2"/><br/><sub>HL7 v2</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/caduceus.png" width="34" height="34" alt="FHIR"/><br/><sub>FHIR</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/privacy.png" width="34" height="34" alt="HIPAA workflows"/><br/><sub>HIPAA workflows</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/health-checkup.png" width="34" height="34" alt="Healthie"/><br/><sub>Healthie</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/hospital-room.png" width="34" height="34" alt="Epic"/><br/><sub>Epic</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/hospital-3.png" width="34" height="34" alt="Cerner"/><br/><sub>Cerner</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/data-configuration.png" width="34" height="34" alt="Redox"/><br/><sub>Redox</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/heart-with-pulse.png" width="34" height="34" alt="Metriport"/><br/><sub>Metriport</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/health-book.png" width="34" height="34" alt="Charm"/><br/><sub>Charm</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/video-call.png" width="34" height="34" alt="Twilio Video"/><br/><sub>Twilio Video</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://cdn.simpleicons.org/agora/099DFD" width="34" height="34" alt="Agora"/><br/><sub>Agora</sub></td>
   </tr>
 </table>
 
