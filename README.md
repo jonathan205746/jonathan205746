@@ -24,7 +24,7 @@ GitHub Profile README
   <a href="tel:+14075847414">
     <img src="https://img.shields.io/badge/%E2%98%8E%EF%B8%8F%20Phone-Contact%20me-16A34A?style=for-the-badge" alt="Phone — contact me"/>
   </a>
-  <a href="https://jonathan205746.netlify.app">
+  <a href="https://jonathan205746.vercel.app">
     <img src="https://img.shields.io/badge/%F0%9F%94%97%20Portfolio-10%2B%20Years%20of%20Experience-334155?style=for-the-badge" alt="Portfolio — 10+ years of experience"/>
   </a>
 </p>
@@ -33,13 +33,13 @@ GitHub Profile README
 
 ## 👋 About Me
 
-Full-stack engineer with 10+ years building web/mobile products, healthcare integrations, and financial systems. Since studying computer science at UCF I've shipped React, Next.js and Angular web apps, React Native and Android mobile apps, connected EHR and CRM workflows, and stabilized Python/.NET backends across healthcare, fintech and aerospace. That path runs from clinical device software at ARA, through telehealth and FHIR intake at Insight Global, to a .NET / Angular finance portal at Northrop Grumman clearing $8M+ a month through Stripe — alongside the aerospace telemetry tooling built there. Most recently I led a Keragon / n8n patient journey engine tying Healthie EHR, GoHighLevel CRM, Stripe and two pharmacies to one patient record.
+Full-stack engineer with 10+ years building web/mobile products, healthcare integrations, and financial systems. Since studying computer science at UCF I've shipped React, Next.js and Angular web apps, React Native and Android mobile apps, connected EHR and CRM workflows, and stabilized Python/.NET backends across healthcare, fintech and aerospace. That path runs from clinical device software at ARA and flight-simulation tooling at CAE, through telehealth and FHIR intake at Insight Global, to a PHP payment portal at Kforce and a .NET / Angular finance portal at Northrop Grumman clearing $8M+ a month through Stripe — alongside the aerospace telemetry built there. Most recently I led a Keragon / n8n patient journey engine tying Healthie EHR, GoHighLevel CRM, Stripe and two pharmacies to one patient record.
 
 I enjoy the hard parts: keeping records consistent across systems, recovering safely from failed jobs, making integrations observable, and leaving teams with clear documentation instead of hidden operational knowledge.
 
 - 🩺 **Healthcare systems:** EHR/CRM integrations, patient workflows, interoperability, and privacy-aware data handling.
 - 💳 **Fintech & finance:** payment portals, Stripe billing and reconciliation, PCI-aware flows, and financial analytics and reporting.
-- 🧠 **Backend engineering:** API design, event-driven services, background jobs, payment reconciliation, and safe recovery.
+- 🧠 **Backend engineering:** API design, event-driven services, background jobs, data reconciliation, and safe recovery.
 - 📱 **Web & mobile:** Responsive front ends, cross-platform apps, and offline-friendly synchronization.
 - ☁️ **Delivery & operations:** AWS, CI/CD, production troubleshooting, runbooks, and practical handoffs.
 
@@ -79,21 +79,21 @@ A snapshot of measurable outcomes from production systems.
 <table width="100%" cellspacing="0" cellpadding="8">
   <tr>
     <td align="center" valign="top" width="25%"><h3>54</h3></td>
-    <td align="center" valign="top" width="25%"><h3>~3,900</h3></td>
-    <td align="center" valign="top" width="25%"><h3>4,684</h3></td>
+    <td align="center" valign="top" width="25%"><h3>~1,900</h3></td>
+    <td align="center" valign="top" width="25%"><h3>5,000+</h3></td>
     <td align="center" valign="top" width="25%"><h3>0</h3></td>
   </tr>
   <tr>
-    <td align="center" valign="top"><sub>workflow automations</sub></td>
-    <td align="center" valign="top"><sub>medication lanes</sub></td>
-    <td align="center" valign="top"><sub>contacts covered</sub></td>
-    <td align="center" valign="top"><sub>failures in an audited load</sub></td>
+    <td align="center" valign="top"><sub>workflows in production</sub></td>
+    <td align="center" valign="top"><sub>patients on the engine</sub></td>
+    <td align="center" valign="top"><sub>medication records moved</sub></td>
+    <td align="center" valign="top"><sub>failed writes in migration</sub></td>
   </tr>
   <tr>
     <td align="center" valign="top"><sub>Keragon · n8n · GoHighLevel</sub></td>
-    <td align="center" valign="top"><sub>Across ~1,900 patients</sub></td>
-    <td align="center" valign="top"><sub>Patient-status routing</sub></td>
-    <td align="center" valign="top"><sub>3,313 updates · 613 creates · 78 deletes</sub></td>
+    <td align="center" valign="top"><sub>consult → start journey</sub></td>
+    <td align="center" valign="top"><sub>ChARM &amp; Zoho → Healthie, GHL</sub></td>
+    <td align="center" valign="top"><sub>zero rollbacks across the load</sub></td>
   </tr>
 </table>
 
@@ -167,7 +167,7 @@ A snapshot of measurable outcomes from production systems.
 <table width="100%" cellspacing="0" cellpadding="4">
   <tr>
     <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/lambda.png" width="34" height="34" alt="AWS Lambda"/><br/><sub>AWS Lambda</sub></td>
-    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/amazon-web-services.png" width="34" height="34" alt="Amazon ECS"/><br/><sub>Amazon ECS</sub></td>
+    <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/services.png" width="34" height="34" alt="Amazon ECS"/><br/><sub>Amazon ECS</sub></td>
     <td align="center" valign="middle" width="9.09%"><img src="https://img.icons8.com/color/48/flow.png" width="34" height="34" alt="Step Functions"/><br/><sub>Step Functions</sub></td>
     <td align="center" valign="middle" width="9.09%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="34" height="34" alt="Docker"/><br/><sub>Docker</sub></td>
     <td align="center" valign="middle" width="9.09%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="34" height="34" alt="GitHub"/><br/><sub>GitHub</sub></td>
