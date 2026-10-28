@@ -18,15 +18,9 @@ GitHub Profile README
 </p>
 
 <p align="center">
-  <a href="mailto:jonathangreen1229@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Get%20in%20touch-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="tel:+14075847414">
-    <img src="https://img.shields.io/badge/%E2%98%8E%EF%B8%8F%20Phone-Contact%20me-16A34A?style=for-the-badge" alt="Phone — contact me"/>
-  </a>
-  <a href="https://jonathan205746.vercel.app">
-    <img src="https://img.shields.io/badge/%F0%9F%94%97%20Portfolio-10%2B%20Years%20of%20Experience-334155?style=for-the-badge" alt="Portfolio — 10+ years of experience"/>
-  </a>
+  <a href="mailto:jonathangreen1229@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="tel:+14075847414"><img src="https://img.shields.io/badge/%E2%98%8E%EF%B8%8F%20Phone-Contact%20me-16A34A?style=for-the-badge" alt="Phone — contact me"/></a>
+  <a href="https://jonathan205746.vercel.app"><img src="https://img.shields.io/badge/%F0%9F%94%97%20Portfolio-10%2B%20Years%20of%20Experience-334155?style=for-the-badge" alt="Portfolio — 10+ years of experience"/></a>
 </p>
 
 ---
@@ -209,13 +203,9 @@ A snapshot of measurable outcomes from production systems.
 Open to thoughtful collaboration, contract projects, and conversations about full-stack engineering, healthcare integrations, backend systems, and workflow automation.
 
 <p align="center">
-  <a href="mailto:jonathangreen1229@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Get%20in%20touch-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
+  <a href="mailto:jonathangreen1229@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   &nbsp;
-  <a href="tel:+14075847414">
-    <img src="https://img.shields.io/badge/%E2%98%8E%EF%B8%8F%20Phone-Contact%20me-16A34A?style=for-the-badge" alt="Phone — contact me"/>
-  </a>
+  <a href="tel:+14075847414"><img src="https://img.shields.io/badge/%E2%98%8E%EF%B8%8F%20Phone-Contact%20me-16A34A?style=for-the-badge" alt="Phone — contact me"/></a>
 </p>
 
 <p align="center">
