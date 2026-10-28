@@ -53,7 +53,7 @@ I enjoy the hard parts: keeping records consistent across systems, recovering sa
       <p><sub>React · Next.js · Angular · React Native · Android</sub></p>
     </td>
     <td width="50%" height="165" valign="top" bgcolor="#f4f7fa">
-      <h3>🩺 Healthcare &amp; Fintech Integration 💳</h3>
+      <h3>🩺 Healthcare &amp; 💳 Fintech Integration</h3>
       <p>EHR / EMR / CRM workflows, HL7 v2 and FHIR data exchange, healthcare website development, patient-data migration, and telehealth — plus Stripe billing, payment reconciliation, and PCI-aware payment portals.</p>
       <p><sub>Healthie · Epic · Cerner · Redox · Next.js · Supabase · Stripe</sub></p>
     </td>
