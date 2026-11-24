@@ -56,6 +56,7 @@ I enjoy the hard parts: keeping records consistent across systems, recovering sa
     <td width="50%" height="165" valign="top" bgcolor="#f4f7fa">
       <h3>🗄️ Backend &amp; Data Systems</h3>
       <p>Python / Django and C# / .NET APIs across healthcare, finance and aerospace - financial analytics, telemetry, batch processing, SQL tuning, idempotent jobs, and production monitoring.</p>
+      <br/>
       <p><sub>Python · Django · C# / .NET · Node.js · AWS</sub></p>
     </td>
     <td width="50%" height="165" valign="top" bgcolor="#f4f7fa">
